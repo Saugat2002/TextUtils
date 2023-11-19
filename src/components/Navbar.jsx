@@ -33,7 +33,7 @@ const Navbar = (props) => {
             <nav className={`${bgColor} ${color} py-3 px-7`}>
                 <ul className='flex space-x-5 items-center justify-center'>
                     <Link to="/" className='text-2xl mr-auto flex space-x-2'>
-                        <img src="../../public/favicon.png" className="w-8 h-8 rounded-md" alt="" />
+                        <img src="/src/assets/favicon.png" alt="Logo" className='rounded-md w-8 h-8'/>
                         <span>{props.title}</span>
                     </Link>
                     <Link to="/" className='hover:text-yellow-600'>Home</Link>
