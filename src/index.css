@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* body{
+  background-color: #042743;
+  color: white;
+} */
+
+.btn{
+  @apply border-[0.5px] border-gray-400 p-2 rounded-lg hover:bg-yellow-700 transition-all;
+}
