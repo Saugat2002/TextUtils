@@ -83,7 +83,7 @@ const TextForm = (props) => {
                 <div className="flex flex-col space-y-2">
                     <p>Words: {wordsCount}</p>
                     <p>Characters: {text.length}</p>
-                    <p>Seconds to read: {(wordsCount * (1 / 125)).toFixed(2)}</p>
+                    <p>Minutes to read: {(wordsCount * (1 / 125)).toFixed(2)}</p>
                 </div>
             </div>
         </>
